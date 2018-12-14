@@ -10,8 +10,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 #for hello2.txt..that we get after using lynx -dump and grep command in terminal
-    #lynx -dump https://www.quora.com/topic/CAT-Preparation > hello1.txt
-    #grep https://www.quora.com/topic/ hello1.txt > hello2.txt
+    #lynx -dump https://www.quora.com/topic/CAT-Preparation > hello.txt
+    #grep https://www.quora.com/topic/ hello.txt > hello2.txt
 a = []
 with open("hello2.txt", "r") as ins:
     for line in ins:
