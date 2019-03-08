@@ -8,10 +8,3 @@ Each question should also include:
 a) Number of answers
 b) 4 answers
 c) tags associated with each question
-
-2..........web scrapping on wedding.net using BeautifulSoup............
-
-collection of email address,contact number,name and city name data from wedding.net.
-
-a)for photographer from each cities
-b)some of the cities are Hyderabad,Bhubaneswar,Mumbai,Patna
