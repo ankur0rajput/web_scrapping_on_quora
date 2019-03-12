@@ -8,15 +8,7 @@ Created on Fri Mar  1 16:18:01 2019
 
 import re
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
-d=[]
-html=urlopen("https://www.amazon.in/Nike-Mens-Chroma-Thong-Black/dp/B00278ZKXK/ref=sr_1_2?ie=UTF8&qid=1551414230&sr=8-2&keywords=nike").read()
-bsobj=BeautifulSoup(html,"lxml")
-namelist =bsobj.findAll("span",{"class":"a-list-item"})
-for name in namelist:
-    d.append(name.get_text())
-
-    
+from bs4 import BeautifulSoup    
 import urllib.request
 class AppURLopener(urllib.request.FancyURLopener):
     version = "Mozilla/5.0"
